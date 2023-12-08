@@ -1,0 +1,18 @@
+<Comprobante Version="4" Fecha="2023-12-07T00:00:00" Serie="CFDI4.0" FormaPago="01" Moneda="MXN" SubTotal="2929.31" Total="3398.00" TipoDeComprobante="I" MetodoPago="PUE" folio="000008">
+  <Emisor Rfc="X100AA1023890" Nombre="Proyecto Integrador 2" RegimenFiscal="601" />
+  <Receptor Rfc="X100AAA201234" Nombre="Fulanito" DomicilioFiscalReceptor="66100" RegimenFiscalReceptor="616" UsoCFDI="G03" />
+  <Conceptos>
+    <Concepto Cantidad="2" NoIdentificacion="1" Descripcion="Computadora PC Core I5" ValorUnitario="1464.6551724137933" Importe="2929.3103448275865" ObjetoImp="02">
+      <Impuestos>
+        <Traslados>
+          <Traslado Base="2929.3103448275865" Importe="468.68965517241384" />
+        </Traslados>
+      </Impuestos>
+    </Concepto>
+  </Conceptos>
+  <Impuestos TotalImpuestosTrasladados="468.69">
+    <Traslados>
+      <Traslado Base="2929.31" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" Importe="468.69" />
+    </Traslados>
+  </Impuestos>
+</Comprobante>

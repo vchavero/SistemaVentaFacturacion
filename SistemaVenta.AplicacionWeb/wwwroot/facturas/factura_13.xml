@@ -1,0 +1,25 @@
+<Comprobante Version="4" Fecha="2023-12-07T00:00:00" Serie="CFDI4.0" FormaPago="01" Moneda="MXN" SubTotal="1596.97" Total="1852.49" TipoDeComprobante="I" MetodoPago="PUE" folio="000013">
+  <Emisor Rfc="X100AA1023890" Nombre="Proyecto Integrador 2" RegimenFiscal="601" />
+  <Receptor Rfc="X100AAA201234" Nombre="Fulanito" DomicilioFiscalReceptor="66100" RegimenFiscalReceptor="616" UsoCFDI="G03" />
+  <Conceptos>
+    <Concepto Cantidad="1" NoIdentificacion="6" Descripcion="Pelota basketball" ValorUnitario="265.07758620689657" Importe="265.07758620689657">
+      <Impuestos>
+        <Traslados>
+          <Traslado Base="265.07758620689657" Importe="42.412413793103454" />
+        </Traslados>
+      </Impuestos>
+    </Concepto>
+    <Concepto Cantidad="3" NoIdentificacion="3" Descripcion="Pelota de tennis" ValorUnitario="443.96551724137936" Importe="1331.8965517241381" ObjetoImp="02">
+      <Impuestos>
+        <Traslados>
+          <Traslado Base="1331.8965517241381" Importe="213.1034482758621" />
+        </Traslados>
+      </Impuestos>
+    </Concepto>
+  </Conceptos>
+  <Impuestos TotalImpuestosTrasladados="255.52">
+    <Traslados>
+      <Traslado Base="1596.97" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" Importe="255.52" />
+    </Traslados>
+  </Impuestos>
+</Comprobante>

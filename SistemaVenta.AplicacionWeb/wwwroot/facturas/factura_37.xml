@@ -1,0 +1,18 @@
+<Comprobante Version="4" Fecha="2023-12-07T00:00:00" Serie="CFDI4.0" FormaPago="01" Moneda="MXN" SubTotal="835.34" Total="969.00" TipoDeComprobante="I" MetodoPago="PUE" folio="000019">
+  <Emisor Rfc="X100AA1023890" Nombre="SportCenter S.A de C.V" RegimenFiscal="601" />
+  <Receptor Rfc="CAOV950919AR4" Nombre="test" DomicilioFiscalReceptor="64105" RegimenFiscalReceptor="601" UsoCFDI="CN01" />
+  <Conceptos>
+    <Concepto Cantidad="1" NoIdentificacion="2" Descripcion="Raqueta super ligera" ValorUnitario="835.344827586207" Importe="835.344827586207" ObjetoImp="02">
+      <Impuestos>
+        <Traslados>
+          <Traslado Base="835.344827586207" Importe="133.6551724137931" />
+        </Traslados>
+      </Impuestos>
+    </Concepto>
+  </Conceptos>
+  <Impuestos TotalImpuestosTrasladados="133.66">
+    <Traslados>
+      <Traslado Base="835.34" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" Importe="133.66" />
+    </Traslados>
+  </Impuestos>
+</Comprobante>
